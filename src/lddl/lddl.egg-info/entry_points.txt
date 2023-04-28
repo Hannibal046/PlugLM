@@ -1,0 +1,8 @@
+[console_scripts]
+balance_dask_output = lddl.dask.load_balance:console_script
+download_books = lddl.download.books:console_script
+download_common_crawl = lddl.download.common_crawl:console_script
+download_wikipedia = lddl.download.wikipedia:console_script
+generate_num_samples_cache = lddl.dask.load_balance:generate_num_samples_cache
+preprocess_bert_pretrain = lddl.dask.bert.pretrain:console_script
+
