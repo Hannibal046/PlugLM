@@ -39,7 +39,9 @@ For PubMed pre-training data, we download from [here](https://github.com/naver/b
 For other datasets, we use [datasets](https://github.com/huggingface/datasets) to download.
 
 ## Pre-training
-The pre-training code (on 8*A100):
+Here we provide the checkpoint of our model along with tokenized wikipedia knowledge base [here](https://drive.google.com/drive/folders/1tOznXhJ0ivEnvTmIaDvuiKyucb-8QPA6?usp=sharing).
+
+The pre-training code (on 8*A100) is listed below:
 ```bash
 cd src
 python -m torch.distributed.launch --nproc_per_node 8 --master_port 12344 --use_env run_pretraining.py \
