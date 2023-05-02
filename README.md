@@ -1,4 +1,4 @@
-# PlugLM: Language model with Plug-in Knowledge Memory
+# [ACL2023]PlugLM: Language model with Plug-in Knowledge Memory
 
 This reposotory contains the code and data for this paper [PlugLM: Language model with Plug-in Knowledge Memory](https://openreview.net/forum?id=Plr5l7r0jY6). 
 
