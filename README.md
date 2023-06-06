@@ -97,11 +97,22 @@ For other tasks, please refer to `run_ner.py`, `run_qa.py`, `run_classification.
 ## Citation
 If you find this project helpful, please consider cite our paper.
 ```
-@misc{
-cheng2023language,
-title={Language model with Plug-in Knowldge Memory},
-author={Xin Cheng and Yankai Lin and Dongyan Zhao and Rui Yan},
-year={2023},
-url={https://openreview.net/forum?id=Plr5l7r0jY6}
+@article{DBLP:journals/corr/abs-2305-11564,
+  author       = {Xin Cheng and
+                  Yankai Lin and
+                  Xiuying Chen and
+                  Dongyan Zhao and
+                  Rui Yan},
+  title        = {Decouple knowledge from paramters for plug-and-play language modeling},
+  journal      = {CoRR},
+  volume       = {abs/2305.11564},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2305.11564},
+  doi          = {10.48550/arXiv.2305.11564},
+  eprinttype    = {arXiv},
+  eprint       = {2305.11564},
+  timestamp    = {Thu, 25 May 2023 15:41:47 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2305-11564.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
