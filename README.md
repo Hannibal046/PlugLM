@@ -1,6 +1,6 @@
 # Decouple knowledge from paramters for plug-and-play language modeling
 
-This reposotory contains the code and data for this ACL2023 Findings paper [Decouple knowledge from paramters for plug-and-play language modeling](https://arxiv.org/abs/2305.11564#:~:text=Decouple%20knowledge%20from%20paramters%20for%20plug%2Dand%2Dplay%20language%20modeling,-Xin%20Cheng%2C%20Yankai&text=Pre%2Dtrained%20language%20models(PLM,of%20knowledge%20during%20pre%2Dtraining.). 
+This reposotory contains the code and data for this ACL2023 Findings paper [Decouple knowledge from paramters for plug-and-play language modeling](https://arxiv.org/abs/2305.11564)
 
 For the first time, we challenge the current implicit knowledge encoding mechanism for PLMs, which have two fundamental drawbacks: 
 
@@ -97,22 +97,10 @@ For other tasks, please refer to `run_ner.py`, `run_qa.py`, `run_classification.
 ## Citation
 If you find this project helpful, please consider cite our paper.
 ```
-@article{DBLP:journals/corr/abs-2305-11564,
-  author       = {Xin Cheng and
-                  Yankai Lin and
-                  Xiuying Chen and
-                  Dongyan Zhao and
-                  Rui Yan},
-  title        = {Decouple knowledge from paramters for plug-and-play language modeling},
-  journal      = {CoRR},
-  volume       = {abs/2305.11564},
-  year         = {2023},
-  url          = {https://doi.org/10.48550/arXiv.2305.11564},
-  doi          = {10.48550/arXiv.2305.11564},
-  eprinttype    = {arXiv},
-  eprint       = {2305.11564},
-  timestamp    = {Thu, 25 May 2023 15:41:47 +0200},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2305-11564.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+@article{cheng2023decouple,
+  title={Decouple knowledge from paramters for plug-and-play language modeling},
+  author={Cheng, Xin and Lin, Yankai and Chen, Xiuying and Zhao, Dongyan and Yan, Rui},
+  journal={arXiv preprint arXiv:2305.11564},
+  year={2023}
 }
 ```
