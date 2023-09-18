@@ -1,6 +1,6 @@
-# Decouple knowledge from paramters for plug-and-play language modeling
+# Decouple knowledge from parameters for plug-and-play language modeling
 
-This reposotory contains the code and data for this ACL2023 Findings paper [Decouple knowledge from paramters for plug-and-play language modeling](https://arxiv.org/abs/2305.11564)
+This reposotory contains the code and data for this ACL2023 Findings paper [Decouple knowledge from parameters for plug-and-play language modeling](https://arxiv.org/abs/2305.11564)
 
 For the first time, we challenge the current implicit knowledge encoding mechanism for PLMs, which have two fundamental drawbacks: 
 
